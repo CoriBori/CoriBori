@@ -3,12 +3,15 @@ body{
     background-size: cover; 
     margin: 0; 
     padding: 0; 
-    font-family: Arial; 
+    font-family: Arial;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 } 
 .nav{ 
     overflow: hidden; 
-    background: #fff; 
-    margin-top: -5px; 
+    background: #fff;
 } 
 .nav a{ 
     color: #000; 
@@ -30,9 +33,11 @@ body{
     background: purple; 
     color: #fff; 
 }
-
-h1 { 
-    text-align: center} 
-
-p { 
-    text-align: center}
+.confirm {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
